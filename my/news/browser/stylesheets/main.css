@@ -116,27 +116,36 @@ dd.portletFooter a:hover{
     margin:0;    
 }
 
-#plone-contentmenu-workflow dt{
+#edit-bar dt{
    border-bottom: 1px solid #ccc;
    padding-bottom: 2px;
    margin-bottom: 2px;
 }
 
-#plone-contentmenu-workflow dt a{
+#edit-bar dt a{
     color: black;
     font-weight: bold;
 }
 
-#plone-contentmenu-workflow dd{
+#edit-bar dd{
     margin: 0;
     
 }
 
-#plone-contentmenu-workflow dd li{
+
+#edit-bar dd li{
+    margin-left: 10px;
+}
+
+#edit-bar dd li > a{
     background-image: url(++resource++my.news.images/arrow.png);
     background-repeat:no-repeat;
     padding-left: 16px;
+}
+
+#content-views li{
     margin-left: 10px;
+    
 }
 
 
@@ -279,5 +288,24 @@ ul#portal-globalnav li a:hover{
     background-image: url(++resource++my.news.images/grey_grad.png);
 }
 
+#portal-footer, #portal-colophon, #portal-siteactions{
+    border-left: 1px solid #cecece;
+    border-bottom: 1px solid #cecece;
+    border-top: 1px solid #cecece;
+    margin-left:0;
+    padding: 10px;
+    text-align: left;
+    font-size: .9em;
+    background-color: #eee;
+    width: 31%;
+    height: 100px;
+    float: left;
+}
 
+ul#portal-siteactions{
+    margin-top: 0;
+}
 
+ul li{
+    list-style-type: none;
+}
