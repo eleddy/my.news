@@ -1,0 +1,26 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="my.news">
+
+  
+  <interface
+      interface=".interfaces.IThemeSpecific"
+      type="zope.publisher.interfaces.browser.IBrowserSkinType"
+      name="News"
+      />
+  
+  
+  <browser:resourceDirectory
+      name="my.news.images"
+      directory="images"
+      layer=".interfaces.IThemeSpecific"
+      />
+
+    <browser:resourceDirectory
+      name="my.news.stylesheets"
+      directory="stylesheets"
+      layer=".interfaces.IThemeSpecific"
+      />
+
+</configure>

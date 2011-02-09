@@ -1,0 +1,283 @@
+/* Stylesheet for the 'News' Plone theme   */
+/*@import url(http://fonts.googleapis.com/css?family=Vollkorn);*/
+
+body{
+    margin: 0px;
+    padding:0;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #1F4F82;
+}
+
+a:hover{
+    color: #000066;
+}
+
+h1, h2, h3, h4, h5{ 
+    font-family: 'Vollkorn', Georgia, serif;
+    margin-bottom: 5px;
+}
+
+h1{
+    font-variant: small-caps;
+    color: #030303;
+    color: #1F4F82;
+}
+
+h2, h3, h4, h5{
+    color: #333;
+    font-variant: small-caps;
+    padding-top: 10px;
+    border-top: 1px dashed #cecece;
+}
+
+.portletHeader{
+    background-color: red;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.portletHeader a{
+    color: #fff;
+}
+
+.portlet dd{
+    border-left: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+    border-bottom: 1px dashed #cecece;
+    margin-left:0;
+    padding: 5px 5px 5px 10px;
+}
+
+.portletItemDetails{
+    color: #999;
+    font-size: .8em;
+}
+
+dd.portletFooter{
+    border-left: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+    border-bottom: 1px solid #cecece;
+    margin-left:0;
+    padding: 2px 10px 2px 2px;
+    text-align: right;
+    font-size: .9em;
+    background-color: #eee;
+}
+
+dd.portletFooter a{
+    color: #999;
+}
+
+dd.portletFooter a:hover{
+    color: #333;
+}
+
+#edit-bar .deactivated dd{
+    /*display:none;*/
+}
+
+#edit-bar{
+    float: right;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+#content{
+    /*display:inline;*/
+    color: #333;
+}
+
+#edit-bar ul{
+    padding: 0;
+}
+
+#edit-bar li{
+    list-style-type: none;
+}
+
+#contentActionMenus .arrowDownAlternative{
+    display:none;
+}
+
+#content-views{
+    margin:0;    
+}
+
+#plone-contentmenu-workflow dt{
+   border-bottom: 1px solid #ccc;
+   padding-bottom: 2px;
+   margin-bottom: 2px;
+}
+
+#plone-contentmenu-workflow dt a{
+    color: black;
+    font-weight: bold;
+}
+
+#plone-contentmenu-workflow dd{
+    margin: 0;
+    
+}
+
+#plone-contentmenu-workflow dd li{
+    background-image: url(++resource++my.news.images/arrow.png);
+    background-repeat:no-repeat;
+    padding-left: 16px;
+    margin-left: 10px;
+}
+
+
+.documentByLine{
+    color: #999;
+    font-size: .8em;
+    margin-bottom: 10px;
+}
+
+.documentDescription{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#link-presentation{
+    display: none;
+}
+
+.hiddenStructure, .close{
+    display: block;
+    background: transparent;
+    background-image: none; /* safari bug */
+    border: none;
+    height: 0.1em;
+    overflow: hidden;
+    padding: 0;
+    margin: -0.1em 0 0 -0.1em;
+    width: 1px;
+}
+
+
+#portal-breadcrumbs{
+    color: #999;
+}
+
+#portal-breadcrumbs a{
+    color: #666;
+}
+
+#portal-columns{
+    padding: 0px 15px 10px 15px;
+    vertical-align:top;
+    width: 100%;
+}
+
+#portal-column-one,#portal-column-content, #portal-column-two{
+    vertical-align:top;
+}
+
+#portal-column-one, #portal-column-two{
+    width: 200px !important;
+    padding-top: 20px;
+}
+
+#portal-column-one{
+    padding-right: 10px;
+}
+
+#portal-personaltools{
+    margin: 3px 0;
+    font-family: Verdana;
+    font-size: .85em;
+}
+
+#portal-personaltools ul{
+    margin: 0;
+    padding: 0;
+}
+
+#portal-personaltools ul li{
+    display:inline;
+}
+
+#portal-personaltools ul li a, #anon-personalbar a{
+    padding-left: 8px;
+    padding-right: 8px;
+    border-left: 1px solid #ccc;
+    color: #333;
+}
+
+#portal-personaltools ul li a:hover, #anon-personalbar a:hover{
+    color: #999;
+}
+
+#portal-personaltools-wrapper dt.actionMenuHeader{
+    display:none;
+}
+ 
+#portal-personaltools-wrapper dd.actionMenuContent, #anon-personalbar{
+    text-align: right;  
+}
+
+#portal-personaltools-wrapper dd.actionMenuContent ul{
+    margin: 0;
+}
+
+#portal-searchbox{
+    float: right;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+
+#portal-searchbox .searchSection{
+    display:none;
+}
+
+#portal-logo img{
+    height: auto;
+    width: 160px;
+}
+
+#portal-logo{
+    clear: left;
+    display:inline;
+    margin-left: 15px;
+}
+
+ul#portal-globalnav{
+    background-image: url(++resource++my.news.images/black_grad.png);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Verdana;
+    font-size: .95em;
+    padding-left: 175px;
+    margin-top: -36px;
+}
+
+ul#portal-globalnav li{
+    display: inline;
+}
+
+ul#portal-globalnav li a{
+    padding: 10px 15px 10px 15px;
+    color: #fff;
+    border-left: 1px solid #666;
+    border-right: 1px solid #333;
+}
+
+ul#portal-globalnav li a:hover{
+    background-image: url(++resource++my.news.images/grey_grad.png);
+}
+
+
+
